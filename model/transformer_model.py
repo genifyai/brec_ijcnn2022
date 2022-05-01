@@ -271,6 +271,10 @@ def train_pipeline(args):
                     best_test_loss = test_loss
                     best_model = copy.deepcopy(model.state_dict())
 
+            if args.save_weights_epoch is not None and epoch % args.save_weights_epoch == 0:
+                torch.save(model.state_dict(), os.path.join(args.weights_path, "weights_{}.pth".format(epoch)))
+                print("model saved at", os.path.join(args.weights_path, "weights_{}.pth".format(epoch)))
+
         print("finished training in", time.time() - start)
     if args.test_in_train:
         model.load_state_dict(best_model)
@@ -327,6 +331,8 @@ def get_args():
                         help='if not None limit the size of the dataset')
     parser.add_argument('--hidden_size', type=int, default=2048,
                         help='hidden size of the encoders forward layer')
+    parser.add_argument('--save_weights_epoch', type=int, default=None,
+                        help='during training save a copy of the model weights every "save_weights_epoch" epochs')
     args = parser.parse_known_args()[0]
     return args
 
