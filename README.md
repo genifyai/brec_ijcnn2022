@@ -67,7 +67,26 @@ python model/evaluation.py --ownership
 
 **Notes**
 - The code for the BERT4Rec, SAS, TISAS, Meantime models has been taken from [(meantime)](https://github.com/SungMinCho/MEANTIME).
+  Our benchmark code can be found [here](https://github.com/genifyai/transformer-recosys-benchmark).
 - The code for the XGB model has been taken from [Kaggle](https://www.kaggle.com/sudalairajkumar/when-less-is-more).
+
+## Serendipity, coverage, novelty
+
+Compute items probabilities and joint probabilities. Results will be stored in the `data` folder by default as `csv` files.
+```
+python utils/joint_probs.py --input_file "data/train_reduced.csv"
+```
+For each user, get the number of times items have been recommended, the history, predictions and ground truths for different values of `k`.
+`k` determines the amount of top recommendations included. Results are also stored in the `data` folder as `csv` files.
+```
+- python utils/user_history_pred.py --k 1
+- python utils/user_history_pred.py --k 3
+- python utils/user_history_pred.py --k 5
+```
+Now we can compute serendipity, coverage, and novelty with the following command.
+```
+python utils/extra_metrics.py --model_version "final_model"
+```
 
 ## Cite us
 
@@ -75,5 +94,5 @@ TODO
 
 ## Disclaimer
 
-This repo **doesn't include** the pretrained weights of our model, our preprocessed data, and the code to benchmark other models.
+This repo **doesn't include** the pretrained weights of our model, our preprocessed data.
 If you need any of the above, you can contact `davide97ls@gmail.com` or `alex@genify.ai` and we will do our best to help you.

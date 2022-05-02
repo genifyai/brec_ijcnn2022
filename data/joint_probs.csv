@@ -1,0 +1,462 @@
+Current Accounts-Derivada Account,0.00035234308149192125
+Current Accounts-Payroll Account,0.013187698192983339
+Current Accounts-Junior Account,0.0
+Current Accounts-Mas particular Account,0.008808577037298032
+Current Accounts-particular Account,0.12075300749987417
+Current Accounts-particular Plus Account,0.03432828308249861
+Current Accounts-Short-term deposits,0.0018120501333870238
+Current Accounts-Medium-term deposits,0.0019630543111692758
+Current Accounts-Long-term deposits,0.05124075099411084
+Current Accounts-e-account,0.07026727739467459
+Current Accounts-Funds,0.021341923793224946
+Current Accounts-Mortgage,0.0028690793778627876
+Current Accounts-Pensions 1,0.0066441838224190865
+Current Accounts-Loans,0.0016610459556047716
+Current Accounts-Taxes,0.037952383349272666
+Current Accounts-Credit Card,0.04867367997181255
+Current Accounts-Securities,0.02989882720088589
+Current Accounts-Home Account,0.0033220919112095433
+Current Accounts-Payroll,0.023606986459958724
+Current Accounts-Pensions 2,0.025268032415563496
+Current Accounts-Direct Debit,0.1496451401822117
+Derivada Account-Current Accounts,0.00035234308149192125
+Derivada Account-Payroll Account,0.00010066945185483464
+Derivada Account-Junior Account,0.0
+Derivada Account-Mas particular Account,0.0
+Derivada Account-particular Account,0.00010066945185483464
+Derivada Account-particular Plus Account,5.033472592741732e-05
+Derivada Account-Short-term deposits,0.0
+Derivada Account-Medium-term deposits,0.0
+Derivada Account-Long-term deposits,0.0
+Derivada Account-e-account,0.00010066945185483464
+Derivada Account-Funds,5.033472592741732e-05
+Derivada Account-Mortgage,0.0
+Derivada Account-Pensions 1,0.00010066945185483464
+Derivada Account-Loans,0.0
+Derivada Account-Taxes,0.00015100417778225197
+Derivada Account-Credit Card,0.0
+Derivada Account-Securities,0.00010066945185483464
+Derivada Account-Home Account,0.0
+Derivada Account-Payroll,0.00010066945185483464
+Derivada Account-Pensions 2,0.00010066945185483464
+Derivada Account-Direct Debit,0.00015100417778225197
+Payroll Account-Current Accounts,0.013187698192983339
+Payroll Account-Derivada Account,0.00010066945185483464
+Payroll Account-Junior Account,0.0
+Payroll Account-Mas particular Account,0.003120753007499874
+Payroll Account-particular Account,0.022046609956208787
+Payroll Account-particular Plus Account,0.02164393214878945
+Payroll Account-Short-term deposits,0.0002013389037096693
+Payroll Account-Medium-term deposits,0.0006040167111290079
+Payroll Account-Long-term deposits,0.01786882770423315
+Payroll Account-e-account,0.048119997986610964
+Payroll Account-Funds,0.007801882518749685
+Payroll Account-Mortgage,0.00563748930387074
+Payroll Account-Pensions 1,0.004983137866814315
+Payroll Account-Loans,0.00045301253334675595
+Payroll Account-Taxes,0.04016711129007903
+Payroll Account-Credit Card,0.05436150400161071
+Payroll Account-Securities,0.013540041274475261
+Payroll Account-Home Account,0.0016610459556047716
+Payroll Account-Payroll,0.09709568631398802
+Payroll Account-Pensions 2,0.10459556047717321
+Payroll Account-Direct Debit,0.10394120904011678
+Junior Account-Current Accounts,0.0
+Junior Account-Derivada Account,0.0
+Junior Account-Payroll Account,0.0
+Junior Account-Mas particular Account,0.0
+Junior Account-particular Account,0.0
+Junior Account-particular Plus Account,0.0
+Junior Account-Short-term deposits,0.0
+Junior Account-Medium-term deposits,0.0
+Junior Account-Long-term deposits,0.00010066945185483464
+Junior Account-e-account,0.0
+Junior Account-Funds,0.0
+Junior Account-Mortgage,0.0
+Junior Account-Pensions 1,0.0
+Junior Account-Loans,0.0
+Junior Account-Taxes,5.033472592741732e-05
+Junior Account-Credit Card,0.0
+Junior Account-Securities,0.0
+Junior Account-Home Account,0.0
+Junior Account-Payroll,0.0
+Junior Account-Pensions 2,5.033472592741732e-05
+Junior Account-Direct Debit,0.0
+Mas particular Account-Current Accounts,0.008808577037298032
+Mas particular Account-Derivada Account,0.0
+Mas particular Account-Payroll Account,0.003120753007499874
+Mas particular Account-Junior Account,0.0
+Mas particular Account-particular Account,0.0002013389037096693
+Mas particular Account-particular Plus Account,0.00010066945185483464
+Mas particular Account-Short-term deposits,0.0002013389037096693
+Mas particular Account-Medium-term deposits,5.033472592741732e-05
+Mas particular Account-Long-term deposits,0.001560376503749937
+Mas particular Account-e-account,0.0013590376000402677
+Mas particular Account-Funds,0.0004026778074193386
+Mas particular Account-Mortgage,5.033472592741732e-05
+Mas particular Account-Pensions 1,0.0002013389037096693
+Mas particular Account-Loans,0.0
+Mas particular Account-Taxes,0.0019127195852418585
+Mas particular Account-Credit Card,0.002466401570443449
+Mas particular Account-Securities,0.0008556903407660945
+Mas particular Account-Home Account,0.0
+Mas particular Account-Payroll,0.003070418281572457
+Mas particular Account-Pensions 2,0.003120753007499874
+Mas particular Account-Direct Debit,0.004832133689032063
+particular Account-Current Accounts,0.12075300749987417
+particular Account-Derivada Account,0.00010066945185483464
+particular Account-Payroll Account,0.022046609956208787
+particular Account-Junior Account,0.0
+particular Account-Mas particular Account,0.0002013389037096693
+particular Account-particular Plus Account,0.011023304978104394
+particular Account-Short-term deposits,0.0002516736296370866
+particular Account-Medium-term deposits,0.0007046861629838425
+particular Account-Long-term deposits,0.019630543111692756
+particular Account-e-account,0.016107112296773543
+particular Account-Funds,0.00996627573362863
+particular Account-Mortgage,0.0021140584889515275
+particular Account-Pensions 1,0.0037247697186288823
+particular Account-Loans,0.00030200835556450393
+particular Account-Taxes,0.01635878592641063
+particular Account-Credit Card,0.024714350430361905
+particular Account-Securities,0.013791714904112348
+particular Account-Home Account,0.002214727940806362
+particular Account-Payroll,0.01847284441536216
+particular Account-Pensions 2,0.019882216741329842
+particular Account-Direct Debit,0.04026778074193386
+particular Plus Account-Current Accounts,0.03432828308249861
+particular Plus Account-Derivada Account,5.033472592741732e-05
+particular Plus Account-Payroll Account,0.02164393214878945
+particular Plus Account-Junior Account,0.0
+particular Plus Account-Mas particular Account,0.00010066945185483464
+particular Plus Account-particular Account,0.011023304978104394
+particular Plus Account-Short-term deposits,0.00010066945185483464
+particular Plus Account-Medium-term deposits,0.0002013389037096693
+particular Plus Account-Long-term deposits,0.008254895052096442
+particular Plus Account-e-account,0.01147631751145115
+particular Plus Account-Funds,0.004429455881612724
+particular Plus Account-Mortgage,0.0019630543111692758
+particular Plus Account-Pensions 1,0.002315397392661197
+particular Plus Account-Loans,0.00015100417778225197
+particular Plus Account-Taxes,0.014697739970805859
+particular Plus Account-Credit Card,0.01822117078572507
+particular Plus Account-Securities,0.006593849096491669
+particular Plus Account-Home Account,0.0010066945185483464
+particular Plus Account-Payroll,0.017969497156087984
+particular Plus Account-Pensions 2,0.019177530578346
+particular Plus Account-Direct Debit,0.032063220415764836
+Short-term deposits-Current Accounts,0.0018120501333870238
+Short-term deposits-Derivada Account,0.0
+Short-term deposits-Payroll Account,0.0002013389037096693
+Short-term deposits-Junior Account,0.0
+Short-term deposits-Mas particular Account,0.0002013389037096693
+Short-term deposits-particular Account,0.0002516736296370866
+Short-term deposits-particular Plus Account,0.00010066945185483464
+Short-term deposits-Medium-term deposits,0.00015100417778225197
+Short-term deposits-Long-term deposits,0.0002516736296370866
+Short-term deposits-e-account,0.00030200835556450393
+Short-term deposits-Funds,5.033472592741732e-05
+Short-term deposits-Mortgage,0.0
+Short-term deposits-Pensions 1,0.0
+Short-term deposits-Loans,0.0
+Short-term deposits-Taxes,0.00010066945185483464
+Short-term deposits-Credit Card,0.0002516736296370866
+Short-term deposits-Securities,0.0
+Short-term deposits-Home Account,0.0
+Short-term deposits-Payroll,0.0002013389037096693
+Short-term deposits-Pensions 2,0.0002013389037096693
+Short-term deposits-Direct Debit,0.0002516736296370866
+Medium-term deposits-Current Accounts,0.0019630543111692758
+Medium-term deposits-Derivada Account,0.0
+Medium-term deposits-Payroll Account,0.0006040167111290079
+Medium-term deposits-Junior Account,0.0
+Medium-term deposits-Mas particular Account,5.033472592741732e-05
+Medium-term deposits-particular Account,0.0007046861629838425
+Medium-term deposits-particular Plus Account,0.0002013389037096693
+Medium-term deposits-Short-term deposits,0.00015100417778225197
+Medium-term deposits-Long-term deposits,0.001409372325967685
+Medium-term deposits-e-account,0.0007550208889112598
+Medium-term deposits-Funds,0.00045301253334675595
+Medium-term deposits-Mortgage,5.033472592741732e-05
+Medium-term deposits-Pensions 1,0.00010066945185483464
+Medium-term deposits-Loans,0.0
+Medium-term deposits-Taxes,0.0005536819852015905
+Medium-term deposits-Credit Card,0.0006040167111290079
+Medium-term deposits-Securities,0.0002013389037096693
+Medium-term deposits-Home Account,0.0
+Medium-term deposits-Payroll,0.0005536819852015905
+Medium-term deposits-Pensions 2,0.0006040167111290079
+Medium-term deposits-Direct Debit,0.0009060250666935119
+Long-term deposits-Current Accounts,0.05124075099411084
+Long-term deposits-Derivada Account,0.0
+Long-term deposits-Payroll Account,0.01786882770423315
+Long-term deposits-Junior Account,0.00010066945185483464
+Long-term deposits-Mas particular Account,0.001560376503749937
+Long-term deposits-particular Account,0.019630543111692756
+Long-term deposits-particular Plus Account,0.008254895052096442
+Long-term deposits-Short-term deposits,0.0002516736296370866
+Long-term deposits-Medium-term deposits,0.001409372325967685
+Long-term deposits-e-account,0.03010016610459556
+Long-term deposits-Funds,0.010469622992902803
+Long-term deposits-Mortgage,0.0012080334222580157
+Long-term deposits-Pensions 1,0.002516736296370866
+Long-term deposits-Loans,0.0
+Long-term deposits-Taxes,0.010771631348467307
+Long-term deposits-Credit Card,0.01867418331907183
+Long-term deposits-Securities,0.007801882518749685
+Long-term deposits-Home Account,0.00045301253334675595
+Long-term deposits-Payroll,0.013187698192983339
+Long-term deposits-Pensions 2,0.015150752504152615
+Long-term deposits-Direct Debit,0.0267277394674586
+e-account-Current Accounts,0.07026727739467459
+e-account-Derivada Account,0.00010066945185483464
+e-account-Payroll Account,0.048119997986610964
+e-account-Junior Account,0.0
+e-account-Mas particular Account,0.0013590376000402677
+e-account-particular Account,0.016107112296773543
+e-account-particular Plus Account,0.01147631751145115
+e-account-Short-term deposits,0.00030200835556450393
+e-account-Medium-term deposits,0.0007550208889112598
+e-account-Long-term deposits,0.03010016610459556
+e-account-Funds,0.011425982785523732
+e-account-Mortgage,0.002768409926007953
+e-account-Pensions 1,0.004228116977903055
+e-account-Loans,0.0002013389037096693
+e-account-Taxes,0.02728142145266019
+e-account-Credit Card,0.04092213217899029
+e-account-Securities,0.015704434489354206
+e-account-Home Account,0.0005536819852015905
+e-account-Payroll,0.03754970554185332
+e-account-Pensions 2,0.04177782251975638
+e-account-Direct Debit,0.0656868173352796
+Funds-Current Accounts,0.021341923793224946
+Funds-Derivada Account,5.033472592741732e-05
+Funds-Payroll Account,0.007801882518749685
+Funds-Junior Account,0.0
+Funds-Mas particular Account,0.0004026778074193386
+Funds-particular Account,0.00996627573362863
+Funds-particular Plus Account,0.004429455881612724
+Funds-Short-term deposits,5.033472592741732e-05
+Funds-Medium-term deposits,0.00045301253334675595
+Funds-Long-term deposits,0.010469622992902803
+Funds-e-account,0.011425982785523732
+Funds-Mortgage,0.00035234308149192125
+Funds-Pensions 1,0.00281874465193537
+Funds-Loans,0.00015100417778225197
+Funds-Taxes,0.004731464237177229
+Funds-Credit Card,0.008556903407660946
+Funds-Securities,0.007751547792822268
+Funds-Home Account,0.0005033472592741732
+Funds-Payroll,0.005436150400161071
+Funds-Pensions 2,0.006593849096491669
+Funds-Direct Debit,0.013137363467055923
+Mortgage-Current Accounts,0.0028690793778627876
+Mortgage-Derivada Account,0.0
+Mortgage-Payroll Account,0.00563748930387074
+Mortgage-Junior Account,0.0
+Mortgage-Mas particular Account,5.033472592741732e-05
+Mortgage-particular Account,0.0021140584889515275
+Mortgage-particular Plus Account,0.0019630543111692758
+Mortgage-Short-term deposits,0.0
+Mortgage-Medium-term deposits,5.033472592741732e-05
+Mortgage-Long-term deposits,0.0012080334222580157
+Mortgage-e-account,0.002768409926007953
+Mortgage-Funds,0.00035234308149192125
+Mortgage-Pensions 1,0.0006040167111290079
+Mortgage-Loans,5.033472592741732e-05
+Mortgage-Taxes,0.0023657321185886144
+Mortgage-Credit Card,0.004781798963104646
+Mortgage-Securities,0.0010570292444757638
+Mortgage-Home Account,0.0
+Mortgage-Payroll,0.004731464237177229
+Mortgage-Pensions 2,0.005033472592741732
+Mortgage-Direct Debit,0.007197865807620677
+Pensions 1-Current Accounts,0.0066441838224190865
+Pensions 1-Derivada Account,0.00010066945185483464
+Pensions 1-Payroll Account,0.004983137866814315
+Pensions 1-Junior Account,0.0
+Pensions 1-Mas particular Account,0.0002013389037096693
+Pensions 1-particular Account,0.0037247697186288823
+Pensions 1-particular Plus Account,0.002315397392661197
+Pensions 1-Short-term deposits,0.0
+Pensions 1-Medium-term deposits,0.00010066945185483464
+Pensions 1-Long-term deposits,0.002516736296370866
+Pensions 1-e-account,0.004228116977903055
+Pensions 1-Funds,0.00281874465193537
+Pensions 1-Mortgage,0.0006040167111290079
+Pensions 1-Loans,5.033472592741732e-05
+Pensions 1-Taxes,0.0036241002667740476
+Pensions 1-Credit Card,0.004429455881612724
+Pensions 1-Securities,0.003120753007499874
+Pensions 1-Home Account,0.00035234308149192125
+Pensions 1-Payroll,0.003825439170483717
+Pensions 1-Pensions 2,0.004127447526048221
+Pensions 1-Direct Debit,0.0074495394372577645
+Loans-Current Accounts,0.0016610459556047716
+Loans-Derivada Account,0.0
+Loans-Payroll Account,0.00045301253334675595
+Loans-Junior Account,0.0
+Loans-Mas particular Account,0.0
+Loans-particular Account,0.00030200835556450393
+Loans-particular Plus Account,0.00015100417778225197
+Loans-Short-term deposits,0.0
+Loans-Medium-term deposits,0.0
+Loans-Long-term deposits,0.0
+Loans-e-account,0.0002013389037096693
+Loans-Funds,0.00015100417778225197
+Loans-Mortgage,5.033472592741732e-05
+Loans-Pensions 1,5.033472592741732e-05
+Loans-Taxes,0.0008053556148386772
+Loans-Credit Card,0.00045301253334675595
+Loans-Securities,0.0002013389037096693
+Loans-Home Account,5.033472592741732e-05
+Loans-Payroll,0.00035234308149192125
+Loans-Pensions 2,0.00035234308149192125
+Loans-Direct Debit,0.0008053556148386772
+Taxes-Current Accounts,0.037952383349272666
+Taxes-Derivada Account,0.00015100417778225197
+Taxes-Payroll Account,0.04016711129007903
+Taxes-Junior Account,5.033472592741732e-05
+Taxes-Mas particular Account,0.0019127195852418585
+Taxes-particular Account,0.01635878592641063
+Taxes-particular Plus Account,0.014697739970805859
+Taxes-Short-term deposits,0.00010066945185483464
+Taxes-Medium-term deposits,0.0005536819852015905
+Taxes-Long-term deposits,0.010771631348467307
+Taxes-e-account,0.02728142145266019
+Taxes-Funds,0.004731464237177229
+Taxes-Mortgage,0.0023657321185886144
+Taxes-Pensions 1,0.0036241002667740476
+Taxes-Loans,0.0008053556148386772
+Taxes-Credit Card,0.031761212060200335
+Taxes-Securities,0.009211254844717371
+Taxes-Home Account,0.001711380681532189
+Taxes-Payroll,0.032818241304676095
+Taxes-Pensions 2,0.03588865958624855
+Taxes-Direct Debit,0.054613177631247796
+Credit Card-Current Accounts,0.04867367997181255
+Credit Card-Derivada Account,0.0
+Credit Card-Payroll Account,0.05436150400161071
+Credit Card-Junior Account,0.0
+Credit Card-Mas particular Account,0.002466401570443449
+Credit Card-particular Account,0.024714350430361905
+Credit Card-particular Plus Account,0.01822117078572507
+Credit Card-Short-term deposits,0.0002516736296370866
+Credit Card-Medium-term deposits,0.0006040167111290079
+Credit Card-Long-term deposits,0.01867418331907183
+Credit Card-e-account,0.04092213217899029
+Credit Card-Funds,0.008556903407660946
+Credit Card-Mortgage,0.004781798963104646
+Credit Card-Pensions 1,0.004429455881612724
+Credit Card-Loans,0.00045301253334675595
+Credit Card-Taxes,0.031761212060200335
+Credit Card-Securities,0.012835355111491418
+Credit Card-Home Account,0.0013590376000402677
+Credit Card-Payroll,0.04308652539386923
+Credit Card-Pensions 2,0.046760960386570696
+Credit Card-Direct Debit,0.07056928575023909
+Securities-Current Accounts,0.02989882720088589
+Securities-Derivada Account,0.00010066945185483464
+Securities-Payroll Account,0.013540041274475261
+Securities-Junior Account,0.0
+Securities-Mas particular Account,0.0008556903407660945
+Securities-particular Account,0.013791714904112348
+Securities-particular Plus Account,0.006593849096491669
+Securities-Short-term deposits,0.0
+Securities-Medium-term deposits,0.0002013389037096693
+Securities-Long-term deposits,0.007801882518749685
+Securities-e-account,0.015704434489354206
+Securities-Funds,0.007751547792822268
+Securities-Mortgage,0.0010570292444757638
+Securities-Pensions 1,0.003120753007499874
+Securities-Loans,0.0002013389037096693
+Securities-Taxes,0.009211254844717371
+Securities-Credit Card,0.012835355111491418
+Securities-Home Account,0.0007046861629838425
+Securities-Payroll,0.011224643881814064
+Securities-Pensions 2,0.012382342578144662
+Securities-Direct Debit,0.022499622489555546
+Home Account-Current Accounts,0.0033220919112095433
+Home Account-Derivada Account,0.0
+Home Account-Payroll Account,0.0016610459556047716
+Home Account-Junior Account,0.0
+Home Account-Mas particular Account,0.0
+Home Account-particular Account,0.002214727940806362
+Home Account-particular Plus Account,0.0010066945185483464
+Home Account-Short-term deposits,0.0
+Home Account-Medium-term deposits,0.0
+Home Account-Long-term deposits,0.00045301253334675595
+Home Account-e-account,0.0005536819852015905
+Home Account-Funds,0.0005033472592741732
+Home Account-Mortgage,0.0
+Home Account-Pensions 1,0.00035234308149192125
+Home Account-Loans,5.033472592741732e-05
+Home Account-Taxes,0.001711380681532189
+Home Account-Credit Card,0.0013590376000402677
+Home Account-Securities,0.0007046861629838425
+Home Account-Payroll,0.0012080334222580157
+Home Account-Pensions 2,0.001258368148185433
+Home Account-Direct Debit,0.0024160668445160315
+Payroll-Current Accounts,0.023606986459958724
+Payroll-Derivada Account,0.00010066945185483464
+Payroll-Payroll Account,0.09709568631398802
+Payroll-Junior Account,0.0
+Payroll-Mas particular Account,0.003070418281572457
+Payroll-particular Account,0.01847284441536216
+Payroll-particular Plus Account,0.017969497156087984
+Payroll-Short-term deposits,0.0002013389037096693
+Payroll-Medium-term deposits,0.0005536819852015905
+Payroll-Long-term deposits,0.013187698192983339
+Payroll-e-account,0.03754970554185332
+Payroll-Funds,0.005436150400161071
+Payroll-Mortgage,0.004731464237177229
+Payroll-Pensions 1,0.003825439170483717
+Payroll-Loans,0.00035234308149192125
+Payroll-Taxes,0.032818241304676095
+Payroll-Credit Card,0.04308652539386923
+Payroll-Securities,0.011224643881814064
+Payroll-Home Account,0.0012080334222580157
+Payroll-Pensions 2,0.10202848945487492
+Payroll-Direct Debit,0.08486434791362561
+Pensions 2-Current Accounts,0.025268032415563496
+Pensions 2-Derivada Account,0.00010066945185483464
+Pensions 2-Payroll Account,0.10459556047717321
+Pensions 2-Junior Account,5.033472592741732e-05
+Pensions 2-Mas particular Account,0.003120753007499874
+Pensions 2-particular Account,0.019882216741329842
+Pensions 2-particular Plus Account,0.019177530578346
+Pensions 2-Short-term deposits,0.0002013389037096693
+Pensions 2-Medium-term deposits,0.0006040167111290079
+Pensions 2-Long-term deposits,0.015150752504152615
+Pensions 2-e-account,0.04177782251975638
+Pensions 2-Funds,0.006593849096491669
+Pensions 2-Mortgage,0.005033472592741732
+Pensions 2-Pensions 1,0.004127447526048221
+Pensions 2-Loans,0.00035234308149192125
+Pensions 2-Taxes,0.03588865958624855
+Pensions 2-Credit Card,0.046760960386570696
+Pensions 2-Securities,0.012382342578144662
+Pensions 2-Home Account,0.001258368148185433
+Pensions 2-Payroll,0.10202848945487492
+Pensions 2-Direct Debit,0.0915085317360447
+Direct Debit-Current Accounts,0.1496451401822117
+Direct Debit-Derivada Account,0.00015100417778225197
+Direct Debit-Payroll Account,0.10394120904011678
+Direct Debit-Junior Account,0.0
+Direct Debit-Mas particular Account,0.004832133689032063
+Direct Debit-particular Account,0.04026778074193386
+Direct Debit-particular Plus Account,0.032063220415764836
+Direct Debit-Short-term deposits,0.0002516736296370866
+Direct Debit-Medium-term deposits,0.0009060250666935119
+Direct Debit-Long-term deposits,0.0267277394674586
+Direct Debit-e-account,0.0656868173352796
+Direct Debit-Funds,0.013137363467055923
+Direct Debit-Mortgage,0.007197865807620677
+Direct Debit-Pensions 1,0.0074495394372577645
+Direct Debit-Loans,0.0008053556148386772
+Direct Debit-Taxes,0.054613177631247796
+Direct Debit-Credit Card,0.07056928575023909
+Direct Debit-Securities,0.022499622489555546
+Direct Debit-Home Account,0.0024160668445160315
+Direct Debit-Payroll,0.08486434791362561
+Direct Debit-Pensions 2,0.0915085317360447

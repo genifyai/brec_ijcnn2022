@@ -1,7 +1,7 @@
 import copy
 import os
 import torch
-from transformer import get_model
+from model.transformer import get_model
 import time
 import torch.nn as nn
 from utils.metrics import *

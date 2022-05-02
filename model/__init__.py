@@ -1,4 +1,4 @@
-from genify_recosys.transformer import get_model
+from model.transformer import get_model
 
 
 __all__ = [

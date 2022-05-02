@@ -1,8 +1,8 @@
 import os
 import torch
-from transformer import get_model
+from model.transformer import get_model
 from torch.utils.data import Dataset
-from transformer_model import CustomDataset, logits_to_recs
+from model.transformer_model import CustomDataset, logits_to_recs
 from utils.metrics import *
 import argparse
 
@@ -10,7 +10,7 @@ items = ['Current Accounts',
         'Derivada Account',
         'Payroll Account',
         'Junior Account',
-        'Más particular Account',
+        'Mas particular Account',
         'particular Account',
         'particular Plus Account',
         'Short-term deposits',
