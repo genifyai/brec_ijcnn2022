@@ -24,8 +24,6 @@ if __name__ == '__main__':
     df = pd.read_csv(input_file)
     sample_size = args.sample_size
     min_data_points = args.min_data_points
-    output_user_data = args.output_user_data
-    output_interactions_data = args.output_interactions_data
     assert sample_size > 0, "sample_size param should be > 0"
     assert min_data_points >= 0, "min_data_points param should be >= 0"
     np.random.seed(args.seed)

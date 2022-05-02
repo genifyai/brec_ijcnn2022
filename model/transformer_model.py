@@ -174,7 +174,6 @@ def evaluate_one_epoch(model, criterion, dataset, device="cpu", owned_items=None
                 old_items = [i for i, p in enumerate(owned_items[j]) if int(float(p)) == 1]
                 real_recommendations = [i for i in real_recommendations if i not in old_items]
                 recommendations = [i for i in recommendations if i not in old_items]
-            j += 1
             if len(real_recommendations) > 0:
                 n_users += 1
             else:
@@ -346,7 +345,7 @@ process the data without training
 train the model for 100 epochs with 10 warmup epochs and save final weights
 - python model/transformer_model.py --save_weights --epochs 100 --warmup_epochs 10
 load pretrained weights and test without training
-- python model/transformer_model.py --load_weights
+- python model/transformer_model.py --load_weights --no_train
 """
 if __name__ == '__main__':
     args = get_args()

@@ -150,7 +150,7 @@ def get_model(n_items, d_model, heads=5, dropout=0.5, n_layers=6, hidden_size=20
 
     if weights_path is not None:
         if not weights_path.endswith('.pth'):
-            weights_path = os.path.join(weights_path, "model_weights.pth")
+            weights_path = os.path.join(weights_path, "weights.pth")
         print("loading pretrained", weights_path)
         model.load_state_dict(torch.load(weights_path, map_location=torch.device(device)))
     else:  # init weights using xavier

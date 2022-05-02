@@ -4,6 +4,7 @@ from transformer import get_model
 from torch.utils.data import Dataset
 from transformer_model import CustomDataset, logits_to_recs
 from utils.metrics import *
+import argparse
 
 items = ['Current Accounts',
         'Derivada Account',
@@ -49,24 +50,24 @@ def inverse_scaler(v, vmin, vmax):
 
 
 # python model/evaluation.py
-if __name__ == '__main__':
+def evaluate(args):
     # those params should not be changed
-    data_path = "data"
-    n_items = 22
-    d_model = 42
-    heads = 7
-    n_layers = 6
-    length_history = 16
-    weights_path = "model/weights/"
+    data_path = args.data
+    n_items = args.n_items
+    d_model = args.d_model
+    heads = args.heads
+    n_layers = args.n_layers
+    length_history = args.seq_len
+    weights_path = args.weights_path
     # those params can be changed
-    limit_users = None  # int or None if we don't want to limit
-    ownership = False  # if True compute results on products ownership
-    no_metadata = False
-    no_history = False
+    limit_users = args.limit_rows  # int or None if we don't want to limit
+    ownership = args.ownership  # if True compute results on products ownership, else compute on acquisition
+    no_metadata = args.no_metadata
+    no_history = args.no_history
     # end params
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    data = np.load(os.path.join(data_path, 'data.npz'))
+    device = args.device
+    data = np.load(data_path)
     np.random.seed(1)
     x_test = data['x_test'][:, -length_history:]
     y_test = data['y_test']
@@ -76,7 +77,7 @@ if __name__ == '__main__':
         x_test[:, :, 20:] = 0
     print(x_test.shape)
     print(y_test.shape)
-    print("data loaded from", os.path.join(data_path, 'data.npz'))
+    print("data loaded from", os.path.join(data_path))
     owned_items = None
     if not ownership:
         owned_items = []
@@ -96,6 +97,7 @@ if __name__ == '__main__':
     users = []
     n_users = 0
     recommendations_tot, real_recommendations_tot = [], []
+    print('evaluation...')
     with torch.no_grad():
         for batch, labels in generator:
             batch, labels = batch.to(device), labels.to(device)
@@ -107,7 +109,6 @@ if __name__ == '__main__':
                 old_items = [i for i, p in enumerate(owned_items[j]) if int(float(p)) == 1]
                 real_recommendations = [i for i in real_recommendations if i not in old_items]
                 recommendations = [i for i in recommendations if i not in old_items]
-                j += 1
             if len(real_recommendations) > 0:
                 n_users += 1
             else:
@@ -131,3 +132,39 @@ if __name__ == '__main__':
 
     print("Normal metrics")
     compute_metrics(real_recommendations_tot, recommendations_tot)
+
+
+def get_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--data', type=str, default="data/data.npz")
+    parser.add_argument('--seq_len', type=int, default=16)
+    parser.add_argument('--n_items', type=int, default=22,
+                        help='number of different items that can be recommended')
+    parser.add_argument('--d_model', type=int, default=42,
+                        help='dimension of the model')
+    parser.add_argument('--heads', type=int, default=7,
+                        help='number of Transformer heads')
+    parser.add_argument('--n_layers', type=int, default=6,
+                        help='number of Transformer layer')
+    parser.add_argument('--device', type=str, default="cuda" if torch.cuda.is_available() else "cpu")
+    parser.add_argument('--weights_path', type=str, default="model/weights",
+                        help='path where the model weights are stored')
+    parser.add_argument('--ownership', default=False, action='store_true')
+    parser.add_argument('--no_metadata', default=False, action='store_true')
+    parser.add_argument('--no_history', default=False, action='store_true')
+    parser.add_argument('--limit_rows', type=int, default=None,
+                        help='if not None limit the size of the dataset')
+    args = parser.parse_known_args()[0]
+    return args
+
+
+"""
+Some usage examples
+Evaluate on acquisition
+- python model/evaluation.py
+Evaluate on ownership
+- python model/evaluation.py --ownership
+"""
+if __name__ == '__main__':
+    args = get_args()
+    evaluate(args)
