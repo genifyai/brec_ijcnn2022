@@ -67,8 +67,16 @@ python model/evaluation.py --ownership
 
 **Notes**
 - The code for the BERT4Rec, SAS, TISAS, Meantime models has been taken from [(meantime)](https://github.com/SungMinCho/MEANTIME).
-  Our benchmark code can be found [here](https://github.com/genifyai/transformer-recosys-benchmark).
 - The code for the XGB model has been taken from [Kaggle](https://www.kaggle.com/sudalairajkumar/when-less-is-more).
+
+## Benchmark reproducibility
+
+Adapt the data to make it compatible with the benchmark interface.
+```
+python make_interactions_data.py --input_file "data/train_reduced.csv"  --output "data/interactions_data.csv"
+python preprocess_interactions_data.py
+```
+Jump into the folder `cd benchmark` and execute the file `benchmark.ipynb`.
 
 ## Serendipity, coverage, novelty
 

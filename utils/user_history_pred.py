@@ -79,6 +79,7 @@ def main(args):
 
     csv_file = open("data/{}_hist_pred_top_{}.csv".format(name, top_k), "w")
     writer = csv.writer(csv_file)
+    """format is """
     for i in range(len(history)):
         writer.writerow([np.array(history[i]), np.array(pred[i]), np.array(acquired[i])])
     csv_file.close()
@@ -117,7 +118,11 @@ def get_args():
 
 """
 Some usage examples
-For each user, get the number of times items have been recommended, the history, predictions and ground truths
+For each user, get:
+1) the number of times items have been recommended (data/{model_version}_item_recommended_top_{k}.csv)
+   each of the n_items row has format: [item_id][#_predicted]
+2) the history, predictions and ground truths ({model_version}_hist_pred_top_{k}.csv)
+   each of the n_users row has format: [history][predictions][ground_truth]
 - python utils/user_history_pred.py --k 1
 - python utils/user_history_pred.py --k 3
 - python utils/user_history_pred.py --k 5
