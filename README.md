@@ -5,7 +5,7 @@ This repository contains the original code of the paper *BRec the Bank: Context-
 ## Dataset
 
 The Santander products recommendation dataset used in our experiments can be downloaded from [here](https://www.kaggle.com/c/santander-product-recommendation/data?select=train_ver2.csv.zip).
-For convenience, you can rename the file `train_ver2.csv` into `train.csv` and put it in the folder `data.csv`.
+For convenience, you can rename the file `train_ver2.csv` into `train.csv` and put it in the folder `data`.
 
 The whole dataset contains hundreds of thousands of users data along a timespan of 17 months. However, we can reduce the dimension of the dataset so to use only a **subsample** of the total users.
 ```
