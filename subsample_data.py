@@ -32,8 +32,12 @@ if __name__ == '__main__':
     def distinct_timestamps(x):
         if min_data_points and len(x.fecha_dato.unique()) >= min_data_points:
             return 1
-        return pd.NaT
+        return np.nan
 
+
+    df.dropna(subset=['ncodpers'], inplace=True)
+    df.dropna(subset=['fecha_dato'], inplace=True)
+    df.dropna(subset=['cod_prov'], inplace=True)
     df_users = df.groupby('ncodpers').apply(distinct_timestamps)
     df_users = pd.DataFrame({'ncodpers': df_users.index, 'values': df_users.values})
     df_users.dropna(inplace=True)
@@ -42,7 +46,6 @@ if __name__ == '__main__':
     df = df[df.ncodpers.isin(df_users.ncodpers)]
     print("dataset reduced to " + str(df.shape[0]) + " entries")
 
-    df.dropna(subset=['ncodpers'], inplace=True)
     if sample_size or min_data_points:
         df.to_csv(input_file.split(".csv")[0] + "_reduced.csv", index=False)
     print("process done")
