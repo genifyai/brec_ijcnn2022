@@ -98,7 +98,14 @@ python utils/extra_metrics.py --model_version "final_model"
 
 ## Cite us
 
-TODO
+```
+@inproceedings{liu_ijcnn_2022,
+author = {Liu, Davide and Farajalla, George Philippe and Boulenger, Alexandre},
+title = {BRec the Bank: Context-aware Self-attentive Encoder for Banking Products Recommendation},
+year = {2022},
+booktitle = {Proceedings of the International Joint Conference on Neural Networks, IJCNN 2022},
+}
+```
 
 ## Disclaimer
 
